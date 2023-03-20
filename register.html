@@ -11,19 +11,19 @@
 <body>
     <div class="box">
         <h1>Register</h1><br><br>
-        <form action="" name="myform2" onsubmit="return validpass2()">
+        <form action="register.php" method="post" name="myform2" onsubmit="return validpass2()">
             <p>Username</p>
-            <input type="text" name="" id="uname1" placeholder="Enter Username">
+            <input type="text" name="uname1" id="uname1" placeholder="Enter Username" autocomplete="off" required>
             <p>Email</p>
-            <input type="email" name="" id="email1" placeholder="Enter email id">
+            <input type="email" name="email1" id="email1" placeholder="Enter email id" autocomplete="off" required>
             <p>Password</p>
-            <input type="password" name="" id="upass1" placeholder="Enter Password">
+            <input type="password" name="upass1" id="upass1" placeholder="Enter Password" required>
             <p>Retype Password</p>
-            <input type="password" name="" id="upass2" placeholder="Re-Enter Password">
+            <input type="password" name="upass2" id="upass2" placeholder="Re-Enter Password" required>
             <div id="errorBox2"></div>
             <input type="submit" id="" value="Register">
             <br><br>
-            <a href="index.html">Already have account click here...</a>
+            <a href="index.html">Already have account Login here...</a>
         </form>
     </div>
 </body>
